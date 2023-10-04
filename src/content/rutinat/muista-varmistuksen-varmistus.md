@@ -1,11 +1,12 @@
 ---
-title: Muista varmistuksen varmistus
+title: "Muista varmistuksen varmistus"
 radiant_id: 30
 radiant_slug: muista-varmistuksen-varmistus
-breadcrumb: Muista varmistuksen varmistus
-created_at: 2009-08-16 11:13:29
-updated_at: 2009-08-16 11:14:27
-published_at: 2009-08-16 14:13:29
+breadcrumb: "Muista varmistuksen varmistus"
+created_at: 2009-08-16T11:13:29.000Z
+updated_at: 2009-08-16T11:14:27.000Z
+published_at: 2009-08-16T14:13:29.000Z
+tags: []
 comments:
 ---
 <p>Toukokuun lopussa sähköpostikoneeni (itse ylläpitämäni <a href="http://www.netdirekt.de/">Netdirektillä</a> hostattu) otti ja katosi Internetistä.  Sellaista aina välillä sattuu.  Maailma ei ole täydellinen.  Tällä kertaa tilanne ei kuitenkaan palautunut normaaliksi omia aikojaan.  Episodi opetti minulle asioita varmuuskopioinnista.</p>

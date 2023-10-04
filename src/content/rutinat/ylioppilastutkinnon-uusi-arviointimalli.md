@@ -1,11 +1,12 @@
 ---
-title: Ylioppilastutkinnon uusi arviointimalli
+title: "Ylioppilastutkinnon uusi arviointimalli"
 radiant_id: 56
 radiant_slug: ylioppilastutkinnon-uusi-arviointimalli
-breadcrumb: Ylioppilastutkinnon uusi arviointimalli
-created_at: 2013-10-03 07:58:46
-updated_at: 2013-10-03 07:58:46
-published_at: 2013-10-03 10:58:46ylioppilastutkinto,media,politiikka,koulutus
+breadcrumb: "Ylioppilastutkinnon uusi arviointimalli"
+created_at: 2013-10-03T07:58:46.000Z
+updated_at: 2013-10-03T07:58:46.000Z
+published_at: 2013-10-03T10:58:46.000Z
+tags: ["ylioppilastutkinto","media","politiikka","koulutus"]
 comments:
 ---
 <p>Ylioppilastutkintolautakunnasta on <a href="http://yle.fi/uutiset/laudaturin_nappaaminen_helpottuu_ensi_kevaana/6834083">tullut julkisuuteen</a> <a href="http://www.iltalehti.fi/uutiset/2013061117140394_uu.shtml">tietoa arviointimallin uudistamisesta</a>.  Noin viisikymmenvuotias arvosanojen laskentamalli on siis menossa uusiksi.  Uutiset aiheesta olivat epämääräisiä, vailla lähdeviitteitä (mikä sinänsä on ihan tavallista), eikä itse laskentamallista ollut uutisissa, eikä <a href="http://www.ylioppilastutkinto.fi/fi/ylioppilastutkinto/uudyot/">tutkintolautakunnan sivuilla</a> käytännössä mitään tietoa.</p>

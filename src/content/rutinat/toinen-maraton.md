@@ -1,11 +1,12 @@
 ---
-title: Toinen maraton
+title: "Toinen maraton"
 radiant_id: 49
 radiant_slug: toinen-maraton
-breadcrumb: Toinen maraton
-created_at: 2010-09-13 21:06:10
-updated_at: 2010-09-13 21:06:11
-published_at: 2010-09-14 00:06:11numeroiden pyörittelyä,liikunta,saavutukset
+breadcrumb: "Toinen maraton"
+created_at: 2010-09-13T21:06:10.000Z
+updated_at: 2010-09-13T21:06:11.000Z
+published_at: 2010-09-14T00:06:11.000Z
+tags: ["numeroiden pyörittelyä","liikunta","saavutukset"]
 comments:
 ---
 <p>Juoksin viime lauantaina elämäni toisen maratonin.  Sää suosi ja järjestelyt pelasivat taas loistavasti.  Lähdin hakemaan vähän liian kovaa aikaa ja viimeinen kymppi meni selviytymistaisteluksi.  <a href="http://racetimer.se/sv/runner/show/1108978?layout=racetimer&amp;race_id=434">Loppuaikani oli 4:57:49</a>.  Parannusta <a href="/rutinat/2009/09/12/takana-42-km-195-m/">viimevuotiseen</a> tuli siis reilu 38 minuuttia.</p>

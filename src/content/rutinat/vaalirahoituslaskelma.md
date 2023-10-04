@@ -1,11 +1,12 @@
 ---
-title: Vaalirahoituslaskelma
+title: "Vaalirahoituslaskelma"
 radiant_id: 24
 radiant_slug: vaalirahoituslaskelma
-breadcrumb: Vaalirahoituslaskelma
-created_at: 2008-10-20 18:38:36
-updated_at: 2009-08-16 14:51:36
-published_at: 2008-10-20 21:49:48vaalit,politiikka,numeroiden pyörittelyä
+breadcrumb: "Vaalirahoituslaskelma"
+created_at: 2008-10-20T18:38:36.000Z
+updated_at: 2009-08-16T14:51:36.000Z
+published_at: 2008-10-20T21:49:48.000Z
+tags: ["vaalit","politiikka","numeroiden pyörittelyä"]
 comments:
 ---
 <p>Läpinäkyvyys on kaunista.  Tässäpä teille oikeusministeriön rahoituslimoituskaavan mukainen laskelma vaalirahoituksestani ja kustannusarvio vaalikuluistani.</p>

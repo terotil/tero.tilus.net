@@ -1,11 +1,12 @@
 ---
-title: Ubuntu Karmic Koala, ASUS Eee Box and black screen
+title: "Ubuntu Karmic Koala, ASUS Eee Box and black screen"
 radiant_id: 43
 radiant_slug: ubuntu-karmic-koala-asus-eee-box-and-black-screen
-breadcrumb: Ubuntu Karmic Koala, ASUS Eee Box and black screen
-created_at: 2009-11-20 05:15:46
-updated_at: 2009-11-20 05:15:46
-published_at: 2009-11-20 07:15:46hack-hack,problem solved
+breadcrumb: "Ubuntu Karmic Koala, ASUS Eee Box and black screen"
+created_at: 2009-11-20T05:15:46.000Z
+updated_at: 2009-11-20T05:15:46.000Z
+published_at: 2009-11-20T07:15:46.000Z
+tags: ["hack-hack","problem solved"]
 comments:
 ---
 <p>I recently upgraded my lovely <span class="caps">ASUS</span> Eee Box <span class="caps">B203</span> from Jaunty to Karmic only to be greeted by black screen and blinking signal light (signal going on and off).  This appeared to be caused by <a href="https://bugs.freedesktop.org/show_bug.cgi?id=24255">a bug in Xorg Intel driver version 2.9.0</a>.  <a href="http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=548045">The Debian bug report</a> had a patch that worked for me.</p>

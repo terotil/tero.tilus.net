@@ -1,18 +1,19 @@
 ---
-title: Ysisatasia tunnelmia
+title: "Ysisatasia tunnelmia"
 radiant_id: 46
 radiant_slug: ysisatasia-tunnelmia
-breadcrumb: Ysisatasia tunnelmia
-created_at: 2010-01-04 12:33:37
-updated_at: 2010-01-04 12:34:37
-published_at: 2010-01-04 14:33:38vempaimet,säätö
+breadcrumb: "Ysisatasia tunnelmia"
+created_at: 2010-01-04T12:33:37.000Z
+updated_at: 2010-01-04T12:34:37.000Z
+published_at: 2010-01-04T14:33:38.000Z
+tags: ["vempaimet","säätö"]
 comments:
 -
   author: Tero Tilus
   content: "Päivitys: <a href=\"http://wiki.maemo.org/Fremantle_Bluetooth_Keyboard_Layout\">Nyt toimivat sekä iGo, että SU8W</a>"
   filter_id: Textile
   content_html: "<p>Päivitys: <a href=\"http://wiki.maemo.org/Fremantle_Bluetooth_Keyboard_Layout\">Nyt toimivat sekä iGo, että SU8W</a></p>"
-  created_at: 2010-06-16 11:42:04
+  created_at: 2010-06-16T11:42:04.000Z
 ---
 <p><a href="http://en.wikipedia.org/wiki/Psion_Series_5">Psion 5mx</a> opetti minut todella pitämään taskutietokoneista.  Niistä ajoista lähtien olen kuskannut lähes kaikkialle mukanani kahta laitatta.  Nyt on aika yrittää josko sitä pärjäisi yhdelläkin.  Siirsin eilen <span class="caps">SIM</span>-kortin vanhasta <a href="http://europe.nokia.com/find-products/devices/nokia-e65"><span class="caps">E65</span>:stä</a> uuteen <a href="http://europe.nokia.com/find-products/devices/nokia-n900"><span class="caps">N900</span>:aan</a>.</p>
 <p>Tietojen siirto onnistui mukavasti suoraan vanhasta luurista bluetooth-yhteydellä, mutta syystä tai toisesta tekstiviestejä tällä konstilla, <a href="http://talk.maemo.org/showthread.php?t=37354&amp;page=2">eikä ilman kunnon säätöä oikein muutoinkaan</a>, <span class="caps">N900</span>:aan saa tuotua.</p>

@@ -1,11 +1,12 @@
 ---
-title: Vaalikoneesta puuttuvat vastaukset
+title: "Vaalikoneesta puuttuvat vastaukset"
 radiant_id: 51
 radiant_slug: vaalikoneesta-puuttuvat-vastaukset
-breadcrumb: Vaalikoneesta puuttuvat vastaukset
-created_at: 2010-10-29 18:56:17
-updated_at: 2010-10-29 21:30:44
-published_at: 2010-10-29 21:56:17politiikka,uskonto,vaalit
+breadcrumb: "Vaalikoneesta puuttuvat vastaukset"
+created_at: 2010-10-29T18:56:17.000Z
+updated_at: 2010-10-29T21:30:44.000Z
+published_at: 2010-10-29T21:56:17.000Z
+tags: ["politiikka","uskonto","vaalit"]
 comments:
 ---
 <p>Bittihamsteri oli syönyt muutaman vaalikonevastaukseni.  Tässä puuttuvat.</p>

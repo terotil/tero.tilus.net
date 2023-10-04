@@ -1,11 +1,12 @@
 ---
-title: Vaalitulos
+title: "Vaalitulos"
 radiant_id: 25
 radiant_slug: vaalitulos
-breadcrumb: Vaalitulos
-created_at: 2008-10-26 23:31:01
-updated_at: 2009-08-16 14:54:32
-published_at: 2008-10-27 01:41:15vaalit,politiikka,numeroiden pyörittelyä
+breadcrumb: "Vaalitulos"
+created_at: 2008-10-26T23:31:01.000Z
+updated_at: 2009-08-16T14:54:32.000Z
+published_at: 2008-10-27T01:41:15.000Z
+tags: ["vaalit","politiikka","numeroiden pyörittelyä"]
 comments:
 ---
 <p>Pöly on laskeutunut ja saalis on 44 ääntä.  Tulos on kasvu-uralla, sain nimittäin 2004 kunnallisvaaleissa 43 ääntä. <tt>;)</tt> Tosin kuntaliitosten myötä kasvaneeseen jyväskyläläisten äänioikeutettujen määrään suhteuttaen, ei kasvua ole.  Pikemminkin päin vastoin.  Onneksi kokonaisuus on kuitenkin aurinkoisempi.  Vihreät on vaalivoittaja sekä <a href="http://www.yle.fi/vaalit2008/tulospalvelu/kunnat/puolueiden_kannatus_kno179.html">Jyväskylässä</a> että <a href="http://www.yle.fi/vaalit2008/tulospalvelu/index.html">valtakunnallisesti</a>.</p> 

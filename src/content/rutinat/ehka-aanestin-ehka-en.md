@@ -1,11 +1,12 @@
 ---
-title: "Ehkä äänestin, ehkä en"
+title: "\"Ehkä äänestin, ehkä en\""
 radiant_id: 27
 radiant_slug: ehka-aanestin-ehka-en
-breadcrumb: "Ehkä äänestin, ehkä en"
-created_at: 2008-10-28 20:03:18
-updated_at: 2009-08-16 14:16:17
-published_at: 2008-10-28 22:03:18electronic frontier,vaalit,sähköinen äänestys,politiikka
+breadcrumb: "\"Ehkä äänestin, ehkä en\""
+created_at: 2008-10-28T20:03:18.000Z
+updated_at: 2009-08-16T14:16:17.000Z
+published_at: 2008-10-28T22:03:18.000Z
+tags: ["electronic frontier","vaalit","sähköinen äänestys","politiikka"]
 comments:
 ---
 <p><a href="http://www.om.fi/Etusivu/Ajankohtaista/Uutiset/1224166604122">Oikeusministeriön tiedote</a> kertoo, että 2 % kunnallisvaalien sähköisen äänestyksen kokeilussa annetuista äänistä jäi laskematta, koska äänestäjät olivat epähuomiossa unohtaneet painaa toisen kerran OK-painiketta äänestyksen lopuksi.</p>

@@ -1,11 +1,12 @@
 ---
-title: "Seitsemän kieltoa nyyseihin kirjoittajalle" on hyvä kirjoitus
+title: "\"Seitsemän kieltoa nyyseihin kirjoittajalle\" on hyvä kirjoitus"
 radiant_id: 16
 radiant_slug: 7-kieltoa-on-hyva
-breadcrumb: "Seitsemän kieltoa" on hyvä kirjoitus
-created_at: 2008-09-30 01:58:05
-updated_at: 2009-08-16 14:40:15
-published_at: 2006-09-06 13:15:00netti-ilmiö
+breadcrumb: "\"Seitsemän kieltoa\" on hyvä kirjoitus"
+created_at: 2008-09-30T01:58:05.000Z
+updated_at: 2009-08-16T14:40:15.000Z
+published_at: 2006-09-06T13:15:00.000Z
+tags: ["netti-ilmiö"]
 comments:
 ---
 <p><a href="http://www.cs.tut.fi/~jkorpela/">Jukka Korpela</a> on

@@ -1,11 +1,12 @@
 ---
-title: Ohjelmistoille riittää tekijänoikeus
+title: "Ohjelmistoille riittää tekijänoikeus"
 radiant_id: 18
 radiant_slug: ohjelmistoille-riittaa-tekijanoikeus
-breadcrumb: Ohjelmistoille riittää tekijänoikeus
-created_at: 2008-09-30 02:17:56
-updated_at: 2009-08-16 14:43:05
-published_at: 2004-03-18 19:27:00ohjelmistopatentit,electronic frontier
+breadcrumb: "Ohjelmistoille riittää tekijänoikeus"
+created_at: 2008-09-30T02:17:56.000Z
+updated_at: 2009-08-16T14:43:05.000Z
+published_at: 2004-03-18T19:27:00.000Z
+tags: ["ohjelmistopatentit","electronic frontier"]
 comments:
 ---
 <p>Mielestäni innovatiivisuuden kannustaminen ohjelmistoalalla tulee

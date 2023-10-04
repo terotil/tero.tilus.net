@@ -1,11 +1,12 @@
 ---
-title: Suomen Handelsbankenin kuluttajaverkkopankki ja kolmannet osapuolet
+title: "Suomen Handelsbankenin kuluttajaverkkopankki ja kolmannet osapuolet"
 radiant_id: 57
 radiant_slug: suomen-handelsbankenin-kuluttajaverkkopankki-ja-kolmannet-osapuolet
-breadcrumb: Suomen Handelsbankenin kuluttajaverkkopankki ja kolmannet osapuolet
-created_at: 2015-02-25 09:33:23
-updated_at: 2015-02-25 09:33:24
-published_at: 2015-02-25 11:33:24
+breadcrumb: "Suomen Handelsbankenin kuluttajaverkkopankki ja kolmannet osapuolet"
+created_at: 2015-02-25T09:33:23.000Z
+updated_at: 2015-02-25T09:33:24.000Z
+published_at: 2015-02-25T11:33:24.000Z
+tags: []
 comments:
 ---
 <p>Vastikään <a href="http://fin.afterdawn.com/uutiset/artikkeli.cfm/2015/02/24/s-pankki-kertoo-googlelle-verkkopankkikaynnistasi-kiistaa-tietoturvaongelman">kiinnitettiin</a> <a href="http://www.uusisuomi.fi/teknologia/78244-s-pankki-tarkkailee-verkkopankkikayntiasi-googlen-avulla">huomiota</a> tapaan, jolla S-pankki käyttää Google Analytics -palvelua.  Kakkaa meni tosin pahasti tuulettimeen vasta kun <a href="https://twitter.com/S_Pankki/status/569878961209143296">S-pankki julkisesti kielsi tehdyt kiistattomat havainnot</a>.  Ajattelin kurkistaa miten oma asiointipankkini, Handelsbanken, suoriutuu tässä suhteessa.</p>

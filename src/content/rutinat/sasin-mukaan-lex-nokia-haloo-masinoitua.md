@@ -1,18 +1,19 @@
 ---
-title: Sasi: Lex Nokia -haloo Hesarin toimittajan masinoimaa
+title: "Sasi: Lex Nokia -haloo Hesarin toimittajan masinoimaa"
 radiant_id: 29
 radiant_slug: sasin-mukaan-lex-nokia-haloo-masinoitua
-breadcrumb: Sasi: Lex Nokia -haloo Hesarin toimittajan masinoimaa
-created_at: 2008-12-03 19:56:53
-updated_at: 2010-02-23 07:24:34
-published_at: 2008-12-03 21:58:04yksityisyys,electronic frontier,politiikka,media
+breadcrumb: "Sasi: Lex Nokia -haloo Hesarin toimittajan masinoimaa"
+created_at: 2008-12-03T19:56:53.000Z
+updated_at: 2010-02-23T07:24:34.000Z
+published_at: 2008-12-03T21:58:04.000Z
+tags: ["yksityisyys","electronic frontier","politiikka","media"]
 comments:
 -
   author: Kimmo Sasi
   content: "Kannattaa lukea perustulakivaliokunnan yksimielinen mietintö eduskunnan sivuilta. Sen pitäisi kertoa selkeästi, miksi vaadituin täsmennyksin LexNokia ei loukkaa perusoikeuksia. Asiantuntijat eivät ole itse kirjoittaneet asiasta, vaan HS on haastatellut heitä omin painotuksin."
   filter_id: Textile
   content_html: "<p>Kannattaa lukea perustulakivaliokunnan yksimielinen mietintö eduskunnan sivuilta. Sen pitäisi kertoa selkeästi, miksi vaadituin täsmennyksin LexNokia ei loukkaa perusoikeuksia. Asiantuntijat eivät ole itse kirjoittaneet asiasta, vaan HS on haastatellut heitä omin painotuksin.</p>"
-  created_at: 2009-01-18 21:53:11
+  created_at: 2009-01-18T21:53:11.000Z
 ---
 <p>A-Studiossa 3.12.2008 klo 21:05 perustuslakivaliokunnan puheenjohtaja <a href="http://www.kimmosasi.net/">Kimmo Sasi</a> heitti Lex Nokia -debatin käsittämättömimmän pommin. Hänen mukaansa Lex Nokia -haloo Hesarin toimittajan henkilökohtainen ristiretki.</p>
 <blockquote>

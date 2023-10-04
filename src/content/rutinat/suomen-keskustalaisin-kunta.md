@@ -1,11 +1,12 @@
 ---
-title: Suomen keskustalaisin kunta?
+title: "Suomen keskustalaisin kunta?"
 radiant_id: 26
 radiant_slug: suomen-keskustalaisin-kunta
-breadcrumb: Suomen keskustalaisin kunta?
-created_at: 2008-10-27 07:25:45
-updated_at: 2009-08-16 14:49:52
-published_at: 2008-10-27 09:25:45hack-hack,politiikka,vaalit,numeroiden pyörittelyä
+breadcrumb: "Suomen keskustalaisin kunta?"
+created_at: 2008-10-27T07:25:45.000Z
+updated_at: 2009-08-16T14:49:52.000Z
+published_at: 2008-10-27T09:25:45.000Z
+tags: ["hack-hack","politiikka","vaalit","numeroiden pyörittelyä"]
 comments:
 ---
 <p>Menin ja kysyin, että onko Halsua edelleen Suomen keskustalaisin kunta (kuten muistan sen joskus olleen, voin tosin olla aivan hirvittävän väärässä).  No, pakkohan se oli selvittää.  Keskustalaisimman kunnan titteliä pitää näiden kuntavaalien jälkeen hallussaan Merijärvi, jossa äänistä 89,9 % meni Keskustalle, niukasti kakkoseksi jäi Pulkkila 89,4 %. Halsua jäi sijalle 24 lukemilla 63,3 %. </p>

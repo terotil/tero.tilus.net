@@ -1,11 +1,12 @@
 ---
-title: Satoja syytteeseen. Mistä?
+title: "Satoja syytteeseen. Mistä?"
 radiant_id: 17
 radiant_slug: satoja-syytteeseen-mista
-breadcrumb: Satoja syytteeseen
-created_at: 2008-09-30 02:03:45
-updated_at: 2009-08-16 14:48:05
-published_at: 2004-10-09 12:34:00tekijänoikeus,electronic frontier
+breadcrumb: "Satoja syytteeseen"
+created_at: 2008-09-30T02:03:45.000Z
+updated_at: 2009-08-16T14:48:05.000Z
+published_at: 2004-10-09T12:34:00.000Z
+tags: ["tekijänoikeus","electronic frontier"]
 comments:
 ---
 <p>Kenenkähän keksimä lauantain (9.10.2004) Keskisuomalaisessa oli

@@ -1,18 +1,19 @@
 ---
-title: Rails migration woes
+title: "Rails migration woes"
 radiant_id: 20
 radiant_slug: rails-migration-woes
-breadcrumb: Rails migration woes
-created_at: 2008-10-10 14:52:20
-updated_at: 2009-08-16 09:33:11
-published_at: 2008-10-10 17:52:48programming,Ruby on Rails
+breadcrumb: "Rails migration woes"
+created_at: 2008-10-10T14:52:20.000Z
+updated_at: 2009-08-16T09:33:11.000Z
+published_at: 2008-10-10T17:52:48.000Z
+tags: ["programming","Ruby on Rails"]
 comments:
 -
   author: JD
   content: "Don't think it is such a widespread habit.  People use db/seeds.rb and accompanying rake tasks.  They should be mentioned in rails guides though.\r\n\r\nAnd the \"downside\".  I've never used or written downs myself.  Dunno really what is the use case."
   filter_id: Textile
   content_html: "<p>Don&#39;t think it is such a widespread habit.  People use db/seeds.rb and accompanying rake tasks.  They should be mentioned in rails guides though.</p>\n<p>And the &quot;downside&quot;.  I&#39;ve never used or written downs myself.  Dunno really what is the use case.</p>"
-  created_at: 2010-12-21 06:51:40
+  created_at: 2010-12-21T06:51:40.000Z
 ---
 <p>Who would tell me what&#8217;s the exact intended purpose of (insert your favorite <span class="caps">MVC</span> webapp framework here<sup class="footnote" id="fnr1"><a href="#fn1">1</a></sup>) migrations.  Yes, I know, using migrations you are supposed to maintain your schema and drag your production data with you as your app evolves.  And yes, I know, you can do all kinds of fancy maintenance and data refactoring things in there too.</p>
 <p class="footnote" id="fn1"><a href="#fnr1"><sup>1</sup></a> I&#8217;m looking this mess from <a href="http://www.rubyonrails.org/">Rails</a> perspective.</p>

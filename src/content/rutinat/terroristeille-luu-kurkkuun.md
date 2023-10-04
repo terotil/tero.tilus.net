@@ -1,11 +1,12 @@
 ---
-title: Terroristeille luu kurkkuun!
+title: "Terroristeille luu kurkkuun!"
 radiant_id: 19
 radiant_slug: terroristeille-luu-kurkkuun
-breadcrumb: Terroristeille luu kurkkuun!
-created_at: 2008-09-30 02:24:30
-updated_at: 2009-08-16 14:51:07
-published_at: 2004-08-11 20:34yleisönosasto,electronic frontier,yksityisyys,politiikka
+breadcrumb: "Terroristeille luu kurkkuun!"
+created_at: 2008-09-30T02:24:30.000Z
+updated_at: 2009-08-16T14:51:07.000Z
+published_at: 2004-08-11T20:34:00.000Z
+tags: ["yleisönosasto","electronic frontier","yksityisyys","politiikka"]
 comments:
 ---
 <p><small><a href="http://keskisuomalainen.protacon.fi/?alue=13&id=25967&threadid=25967">Julkaistu Keskisuomalaisen yleisönosastossa</a>

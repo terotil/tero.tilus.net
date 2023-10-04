@@ -2,6 +2,10 @@ const { AsyncDatabase } = require("promised-sqlite3");
 const textile = require("textile-js");
 const fs = require('fs');
 
+function timestamp(at) {
+    return at.replace(' ', 'T') + '.000Z'
+}
+
 (async () => {
     try {
         // https://github.com/radiant/radiant + Categories, Paperclipped, Featured Pages, Comments -plugarit
@@ -13,15 +17,15 @@ const fs = require('fs');
         for (const page of pages) {
             let mdContent = "";
             mdContent += ("---");
-            mdContent += (`\ntitle: ${page.title}`);
+            mdContent += (`\ntitle: ${JSON.stringify(page.title)}`);
             mdContent += (`\nradiant_id: ${page.id}`);
             mdContent += (`\nradiant_slug: ${page.slug}`);
-            mdContent += (`\nbreadcrumb: ${page.breadcrumb}`);
-            mdContent += (`\ncreated_at: ${page.created_at}`);
-            mdContent += (`\nupdated_at: ${page.updated_at}`);
-            mdContent += (`\npublished_at: ${page.published_at}`);
+            mdContent += (`\nbreadcrumb: ${JSON.stringify(page.breadcrumb)}`);
+            mdContent += (`\ncreated_at: ${timestamp(page.created_at)}`);
+            mdContent += (`\nupdated_at: ${timestamp(page.updated_at)}`);
+            mdContent += (`\npublished_at: ${timestamp(page.published_at)}`);
             const tags = (await db.all(`SELECT meta_tags.name AS tag FROM taggings JOIN meta_tags ON taggings.meta_tag_id = meta_tags.id WHERE taggable_type = 'Page' AND taggable_id = ?`, [page.id])).map(t => t.tag);
-            mdContent += ("\ntags:", tags);
+            mdContent += (`\ntags: ${JSON.stringify(tags)}`);
             const comments = await db.all(`SELECT * FROM comments WHERE page_id = ?`, [page.id]);
             mdContent += ("\ncomments:");
             comments.forEach((c) => {
@@ -30,7 +34,7 @@ const fs = require('fs');
                 mdContent += (`\n  content: ${JSON.stringify(c.content)}`);
                 mdContent += (`\n  filter_id: ${c.filter_id}`);
                 mdContent += (`\n  content_html: ${JSON.stringify(c.content_html)}`);
-                mdContent += (`\n  created_at: ${c.created_at}`);
+                mdContent += (`\n  created_at: ${timestamp(c.created_at)}`);
             });
             mdContent += ("\n---\n");
 

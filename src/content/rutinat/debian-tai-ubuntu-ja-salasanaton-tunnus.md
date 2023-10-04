@@ -1,11 +1,12 @@
 ---
-title: Debian (tai Ubuntu) ja salasanaton tunnus
+title: "Debian (tai Ubuntu) ja salasanaton tunnus"
 radiant_id: 42
 radiant_slug: debian-tai-ubuntu-ja-salasanaton-tunnus
-breadcrumb: Debian (tai Ubuntu) ja salasanaton tunnus
-created_at: 2009-11-19 05:32:58
-updated_at: 2009-11-19 05:32:58
-published_at: 2009-11-19 07:32:58hack-hack,säätö
+breadcrumb: "Debian (tai Ubuntu) ja salasanaton tunnus"
+created_at: 2009-11-19T05:32:58.000Z
+updated_at: 2009-11-19T05:32:58.000Z
+published_at: 2009-11-19T07:32:58.000Z
+tags: ["hack-hack","säätö"]
 comments:
 ---
 <p>Tarvitsin olohuonekoneeseen yhteiskäyttöisen salasanattoman käyttäjätunnuksen. Halusin kenen tahansa voivan päästä koneelta käsiksi nettiin, televisioon, musiikkiarkistoon ja valokuviin tarvitsematta syöttää mitään salasanaa, edes tyhjää.  Muttei toki netin yli, vaan vain olohuoneesta käsin.</p>

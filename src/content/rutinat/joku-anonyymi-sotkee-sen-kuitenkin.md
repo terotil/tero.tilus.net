@@ -1,11 +1,12 @@
 ---
-title: Joku anonyymi sotkee sen kuitenkin
+title: "Joku anonyymi sotkee sen kuitenkin"
 radiant_id: 35
 radiant_slug: joku-anonyymi-sotkee-sen-kuitenkin
-breadcrumb: Joku anonyymi sotkee sen kuitenkin
-created_at: 2009-08-16 23:46:43
-updated_at: 2009-08-16 23:47:01
-published_at: 2009-08-17 02:46:43netti-ilmiö
+breadcrumb: "Joku anonyymi sotkee sen kuitenkin"
+created_at: 2009-08-16T23:46:43.000Z
+updated_at: 2009-08-16T23:47:01.000Z
+published_at: 2009-08-17T02:46:43.000Z
+tags: ["netti-ilmiö"]
 comments:
 ---
 <p>Erään aihealueen keskusteluryhmässä oli taannoin puhetta yleisestä tietouden levittämisestä ja sen keinoista.  Ehdotin <a href="http://www.wikipedia.org/">Wikipedian</a> aihealuetta koskevan artikkelin ylläpitoa yhdeksi hyväksi tavaksi.  Yllätyin nihkeistä kommenteista, joita ehdotus kirvoitti.</p>

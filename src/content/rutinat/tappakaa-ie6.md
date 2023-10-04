@@ -1,11 +1,12 @@
 ---
-title: Tappakaa IE6!
+title: "Tappakaa IE6!"
 radiant_id: 39
 radiant_slug: tappakaa-ie6
-breadcrumb: Tappakaa IE6!
-created_at: 2009-08-20 07:41:58
-updated_at: 2009-08-20 07:41:58
-published_at: 2009-08-20 10:41:58netti-ilmiö,kampanja
+breadcrumb: "Tappakaa IE6!"
+created_at: 2009-08-20T07:41:58.000Z
+updated_at: 2009-08-20T07:41:58.000Z
+published_at: 2009-08-20T10:41:58.000Z
+tags: ["netti-ilmiö","kampanja"]
 comments:
 ---
 <p style="text-align:center"><r:assets:first><a href="http://www.stopie6.com/"><r:image geometry="100%" /></a></r:assets:first></p>

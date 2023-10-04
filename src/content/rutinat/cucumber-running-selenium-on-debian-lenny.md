@@ -1,11 +1,12 @@
 ---
-title: Cucumber running Selenium on Debian Lenny
+title: "Cucumber running Selenium on Debian Lenny"
 radiant_id: 38
 radiant_slug: cucumber-running-selenium-on-debian-lenny
-breadcrumb: Cucumber running Selenium on Debian Lenny
-created_at: 2009-08-18 13:10:00
-updated_at: 2009-08-18 13:17:10
-published_at: 2009-08-18 16:10:00programming,Cucumber,Selenium
+breadcrumb: "Cucumber running Selenium on Debian Lenny"
+created_at: 2009-08-18T13:10:00.000Z
+updated_at: 2009-08-18T13:17:10.000Z
+published_at: 2009-08-18T16:10:00.000Z
+tags: ["programming","Cucumber","Selenium"]
 comments:
 ---
 <p>I&#8217;ve been working with working with <a href="http://rspec.info/">RSpec</a> and <a href="http://cukes.info/">Cucumber</a> on <a href="http://rubyonrails.org/">Ruby on Rails</a> for a while.  I haven&#8217;t yet done any in browser testing but now I need to (need to automate a testsuite of non-RoR legacy webapp) and I like the idea of writing Cucumber scenarios for in browser tests too.  I decided to give <a href="http://seleniumhq.org/">Selenium</a> a try.</p>

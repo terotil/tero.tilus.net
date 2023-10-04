@@ -1,11 +1,12 @@
 ---
-title: "Lopettakaa surmaajasta kirjoittaminen"
+title: "\"Lopettakaa surmaajasta kirjoittaminen\""
 radiant_id: 11
 radiant_slug: lopettakaa-surmaajasta-kirjoittaminen
-breadcrumb: "Lopettakaa surmaajasta kirjoittaminen"
-created_at: 2008-09-27 23:35:41
-updated_at: 2009-08-16 14:38:38
-published_at: 2008-09-28 02:35:41media
+breadcrumb: "\"Lopettakaa surmaajasta kirjoittaminen\""
+created_at: 2008-09-27T23:35:41.000Z
+updated_at: 2009-08-16T14:38:38.000Z
+published_at: 2008-09-28T02:35:41.000Z
+tags: ["media"]
 comments:
 ---
 <p>Lauantain 27.9.2008 <a href="http://www.ksml.fi/">Keskisuomalaisessa</a> on äänessä koulusurmia tutkinut saksalainen kriminaalipsykologi <strong>Jens Hoffmann</strong>.  <a href="http://www.ksml.fi/teemat/kauhajoki/lopettakaa-surmaajasta-kirjoittaminen(244002).ece">Osa jutusta löytyy myös nettilehdestä.</a>  Hoffmann vaikuttaa harvinaisen selväjärkiseltä mieheltä. Kuunnelkaa hiljaa kun hän antaa neuvon:</p>
