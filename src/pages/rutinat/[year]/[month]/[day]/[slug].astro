@@ -1,0 +1,37 @@
+---
+import DefaultLayout from '../../../../../layouts/DefaultLayout.astro'
+import { getEntry, getCollection } from 'astro:content'
+
+export async function getStaticPaths() {
+    const pad = num => num.toString().padStart(2, "0")
+    const posts = await getCollection('rutinat')
+    const paths = posts.map((post) => {
+        const pubdate = post.data.published_at
+        return { 
+            params: { 
+                year: pubdate.getFullYear().toString(), 
+                month: pad(pubdate.getMonth()+1), 
+                day: pad(pubdate.getDate()), 
+                slug: post.slug }, 
+            props: {}}
+        }
+    )
+    return paths
+}
+
+const params = Astro.params
+const post = await getEntry('rutinat', params.slug)
+const { Content } = await post.render()
+const title = "Rutinat – " + post.data.title
+
+---
+
+<DefaultLayout title={title}>
+    <div class="container">
+        <div class="space-content my-12">
+            <h1>{post.data.title}</h1>
+            <p>{post.data.published_at}</p>
+            <Content />
+        </div>
+    </div>
+</DefaultLayout>
