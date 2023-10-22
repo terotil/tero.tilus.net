@@ -1,0 +1,85 @@
+---
+import DefaultLayout from '../../layouts/DefaultLayout.astro'
+import { getCollection } from 'astro:content'
+
+function monthUrl(post:Object) {
+    const date = post.data.published_at
+    const year  = date.getFullYear().toString()
+    const month = (date.getMonth()+1).toString().padStart(2, '0')
+    return `/rutinat/${year}/${month}/`
+}
+
+function postUrl(post:Object) {
+    const date = post.data.published_at
+    const day   = date.getDate().toString().padStart(2, '0')
+    return `${monthUrl(post)}${day}/${post.slug}`
+}
+
+const posts = await getCollection('rutinat')
+posts.sort((a, b) => b.data.published_at - a.data.published_at) // newest first
+
+const postsByYear = toPostsByKey(posts, [
+    post => post.data.published_at.getFullYear().toString(),
+    post => post.data.published_at.toLocaleString('fi', {month:'long'})
+])
+
+function toPostsByKey(posts:any[], toKeys: Function[]) {
+    toKeys = [...toKeys]
+    const toKey = toKeys.shift()
+    if (!toKey) {
+        return posts
+    }
+    const postsByKey: { keys: string[], posts: {[key: string]: any[]}} = { keys: [], posts: {} }
+
+    posts.forEach(post => {
+        const key = toKey(post)
+
+        if (!postsByKey.posts[key]) {
+            postsByKey.posts[key] = []
+            postsByKey.keys.push(key)
+        }
+
+        postsByKey.posts[key].push(post)
+    })
+    postsByKey.keys.forEach(key => {
+        postsByKey.posts[key] = toPostsByKey(postsByKey.posts[key], toKeys)
+    })
+    return postsByKey
+}
+
+const title = "Rutinat"
+
+---
+
+<DefaultLayout title={title}>
+    <div class="container">
+        <div class="space-content my-12">
+            <h1>{title}</h1>
+            <ul>
+                {postsByYear.keys.map((year) => (
+                    <li>
+                        <h2><a href={`/rutinat/${year}`}>{year}</a></h2>
+                        <ul>
+                            {postsByYear.posts[year].keys.map((month) => (
+                                <li>
+                                    <h3><a href={monthUrl(postsByYear.posts[year].posts[month][0])}>{month}</a></h3>
+                                    <ul>
+                                        {postsByYear.posts[year].posts[month].map((post) => (
+                                            <li>
+                                                ({post.data.published_at.toLocaleString('fi', {month:'numeric',day:'numeric'})})
+                                                <a href={postUrl(post)}>{post.data.title}</a>
+                                            </li>
+                                            ))
+                                        }
+                                    </ul>
+                                </li>
+                                ))
+                            }
+                        </ul>
+                    </li>
+                    ))
+                }
+            </ul>
+        </div>
+    </div>
+</DefaultLayout>
