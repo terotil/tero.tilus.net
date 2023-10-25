@@ -1,0 +1,25 @@
+---
+import BlogIndex from '../index.astro'
+import { getCollection } from 'astro:content'
+
+export async function getStaticPaths() {
+    const pad = num => num.toString().padStart(2, "0")
+    const posts = await getCollection('rutinat')
+    const paths = posts.map((post) => {
+        const pubdate = post.data.published_at
+        return {
+            params: {
+                year: pubdate.getFullYear().toString(),
+                month: pad(pubdate.getMonth()+1),
+            },
+            props: {}
+        }
+    })
+    return paths
+}
+
+const { year, month } = Astro.params
+
+---
+
+<BlogIndex year={parseInt(year)} month={parseInt(month)} />

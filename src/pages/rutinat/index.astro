@@ -15,13 +15,9 @@ function postUrl(post:Object) {
     return `${monthUrl(post)}${day}/${post.slug}`
 }
 
-const posts = await getCollection('rutinat')
-posts.sort((a, b) => b.data.published_at - a.data.published_at) // newest first
-
-const postsByYear = toPostsByKey(posts, [
-    post => post.data.published_at.getFullYear().toString(),
-    post => post.data.published_at.toLocaleString('fi', {month:'long'})
-])
+function removeHTML(input) {
+  return input.replace(/<[^>]*>/g, '')
+}
 
 function toPostsByKey(posts:any[], toKeys: Function[]) {
     toKeys = [...toKeys]
@@ -48,6 +44,20 @@ function toPostsByKey(posts:any[], toKeys: Function[]) {
 }
 
 const title = "Rutinat"
+const { year, month } = Astro.props
+
+const posts = (await getCollection('rutinat')).filter((p) => {
+    // Filter by given props
+    return (!year || p.data.published_at.getFullYear() === year) &&
+        (!month || p.data.published_at.getMonth() === (month-1))
+})
+posts.sort((a, b) => b.data.published_at - a.data.published_at) // newest first
+const postsByYear = toPostsByKey(posts, [
+    post => post.data.published_at.getFullYear().toString(),
+    post => post.data.published_at.toLocaleString('fi', {month:'long'})
+])
+
+
 
 ---
 
@@ -66,8 +76,11 @@ const title = "Rutinat"
                                     <ul>
                                         {postsByYear.posts[year].posts[month].map((post) => (
                                             <li>
-                                                ({post.data.published_at.toLocaleString('fi', {month:'numeric',day:'numeric'})})
-                                                <a href={postUrl(post)}>{post.data.title}</a>
+                                                <h4><a href={postUrl(post)}>{post.data.title}</a></h4>
+                                                <p>
+                                                    <em>{post.data.published_at.toLocaleString('fi', {month:'numeric',day:'numeric',year:'numeric'})}</em>&nbsp;
+                                                    {removeHTML(post.body).slice(0,100)}&hellip;
+                                                </p>
                                             </li>
                                             ))
                                         }
@@ -80,6 +93,8 @@ const title = "Rutinat"
                     ))
                 }
             </ul>
+            <h2>Rutinoita muualla</h2>
+            <p><a href="http://rutinat.vuodatus.net/">Rutinat 2/2006 – 9/2008</a> luettavissa vuodatus.netissä.</p>
         </div>
     </div>
 </DefaultLayout>
