@@ -7,12 +7,12 @@ export async function getStaticPaths() {
     const posts = await getCollection('rutinat')
     const paths = posts.map((post) => {
         const pubdate = post.data.published_at
-        return { 
-            params: { 
-                year: pubdate.getFullYear().toString(), 
-                month: pad(pubdate.getMonth()+1), 
-                day: pad(pubdate.getDate()), 
-                slug: post.slug }, 
+        return {
+            params: {
+                year: pubdate.getFullYear().toString(),
+                month: pad(pubdate.getMonth()+1),
+                day: pad(pubdate.getDate()),
+                slug: post.slug },
             props: {}}
         }
     )
