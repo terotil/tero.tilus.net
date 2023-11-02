@@ -43,13 +43,15 @@ function toPostsByKey(posts:any[], toKeys: Function[]) {
     return postsByKey
 }
 
-const title = "Rutinat"
-const { year, month } = Astro.props
+let title = "Rutinat"
+const { year, month, tag } = Astro.props
+if (tag) { title = title + ": " + tag}
 
 const posts = (await getCollection('rutinat')).filter((p) => {
     // Filter by given props
     return (!year || p.data.published_at.getFullYear() === year) &&
-        (!month || p.data.published_at.getMonth() === (month-1))
+        (!month || p.data.published_at.getMonth() === (month-1)) &&
+        (!tag || p.data.tags.includes(tag))
 })
 posts.sort((a, b) => b.data.published_at - a.data.published_at) // newest first
 const postsByYear = toPostsByKey(posts, [

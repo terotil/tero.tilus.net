@@ -1,13 +1,11 @@
 ---
 import DefaultLayout from '../../layouts/DefaultLayout.astro'
+import toTags from '../../lib/toTags'
 import { getCollection } from 'astro:content'
 
 const title = "Rutina-aiheet"
 const posts = await getCollection('rutinat')
-const tags = posts.map(post => post.data.tags).flat().reduce((counts, tag) => {
-    counts[tag] = (counts[tag] || 0) + 1
-    return counts
-}, {})
+const tags = toTags(posts)
 
 ---
 
@@ -16,7 +14,7 @@ const tags = posts.map(post => post.data.tags).flat().reduce((counts, tag) => {
         <div class="space-content my-12">
             <h1>{title}</h1>
             <ul>
-                {Object.entries(tags).map(([tag, count]) => (
+                {tags.map(([tag, count]) => (
                     <li><a href={`/rutina-aihe/${tag}`}>{tag}</a> ({count})</li>
                 ))}
             </ul>

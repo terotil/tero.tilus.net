@@ -1,0 +1,22 @@
+---
+import toTags from '../../lib/toTags'
+import BlogIndex from '../rutinat/index.astro'
+import { getCollection } from 'astro:content'
+
+export async function getStaticPaths() {
+    const posts = await getCollection('rutinat')
+    const tags = toTags(posts)
+    const paths = tags.map(([tag, _]) => {
+        return {
+            params: { tag },
+            props: {}
+        }
+    })
+    return paths
+}
+
+const { tag } = Astro.params
+
+---
+
+<BlogIndex tag={tag} />
