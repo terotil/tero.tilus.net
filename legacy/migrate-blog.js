@@ -12,7 +12,9 @@ function timestamp(at) {
         const db = await AsyncDatabase.open(__dirname+'/production.sqlite3.db');
 
         // Julkaistut blogipostaukset
-        const pages = await db.all("SELECT * FROM pages WHERE parent_id = 4 AND status_id = 100 AND class_name = ''");
+        //const pages = await db.all("SELECT * FROM pages WHERE parent_id = 4 AND status_id = 100 AND class_name = ''");
+        // Julkaistut politiikka-sivut
+        const pages = await db.all("SELECT * FROM pages WHERE parent_id = 12 AND status_id = 100 AND class_name = ''");
 
         for (const page of pages) {
             let mdContent = "";
