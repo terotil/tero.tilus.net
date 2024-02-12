@@ -14,5 +14,6 @@ export default defineConfig({
     '/politiikka/kuntavaalit-2008': '/rutinat/2008/09/28/kuntavaalit-2008',
     '/politiikka/seurakuntavaalit-2008': '/rutinat/2008/11/29/seurakuntavaalit-2008',
     '/politiikka/seurakuntavaalit-2010': '/rutinat/2010/10/30/seurakuntavaalit-2010',
+    '/loytoja/sattuvasti-sanottua/': '/loytoja',
   },
 })
