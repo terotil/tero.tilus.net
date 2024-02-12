@@ -19,6 +19,8 @@ ol:not([class]) {
 }
 
 ul:not([class]) {
+  list-style: disc;
+
   > li::marker {
     display: block;
     color: var(--primary-800);
