@@ -1,19 +1,8 @@
 ---
 import DefaultLayout from '../../layouts/DefaultLayout.astro'
 import { getCollection } from 'astro:content'
-
-function monthUrl(post:Object) {
-    const date = post.data.published_at
-    const year  = date.getFullYear().toString()
-    const month = (date.getMonth()+1).toString().padStart(2, '0')
-    return `/rutinat/${year}/${month}/`
-}
-
-function postUrl(post:Object) {
-    const date = post.data.published_at
-    const day   = date.getDate().toString().padStart(2, '0')
-    return `${monthUrl(post)}${day}/${post.slug}`
-}
+import monthUrl from '../../lib/monthUrl'
+import postUrl from '../../lib/postUrl'
 
 function removeHTML(input) {
   return input.replace(/<[^>]*>/g, '')
@@ -58,8 +47,6 @@ const postsByYear = toPostsByKey(posts, [
     post => post.data.published_at.getFullYear().toString(),
     post => post.data.published_at.toLocaleString('fi', {month:'long'})
 ])
-
-
 
 ---
 

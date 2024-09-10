@@ -18,11 +18,10 @@ Syntynyt 1977 [Oulussa](http://www.oulu.ouka.fi/), asustanut [Pulkkilassa](http:
  * [Skype](http://www.skype.com/): tero.tilus
  * [Matrix](https://matrix.org/): @ttilus:hacklab.fi</dd>
  * [IRC](http://fi.wikipedia.org/wiki/IRC): TTilus (@ IRCNet & freenode.net)
- * Julkinen PGP-avaimeni: <a href="/tero@tilus.net.txt">1024D/16424B8D</a>, avaimen sormenjälki: 58B1 5FC8 9AD6 74EB 8378  E3E2 647C 5F6A 1642 4B8D</dd>
 
 ## Koulutus ja työhistoria
 
- * Katso [LinkedIn-profiilistani](http://www.linkedin.com/in/terotilus)
+ * Katso ammatillinen CV [LinkedIn-profiilistani](http://www.linkedin.com/in/terotilus)
 
 ## Jäsenyyksiä
 
@@ -86,7 +85,7 @@ Syntynyt 1977 [Oulussa](http://www.oulu.ouka.fi/), asustanut [Pulkkilassa](http:
 
 ### [Keski-Suomen Kiinteistöyhdistys ry](https://keski-suomi.kiinteistoliitto.fi/)
 
- * Hallituksen jäsen 2022--2024
+ * Hallituksen jäsen 2022--
 
 ### [Kiinteistöliitto](https://www.kiinteistoliitto.fi/)
 

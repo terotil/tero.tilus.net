@@ -1,20 +1,32 @@
 ---
 import DefaultLayout from '../layouts/DefaultLayout.astro'
 import Feature from '../components/Feature.astro'
+import { getCollection } from 'astro:content'
+import postUrl from '../lib/postUrl'
+
+function removeHTML(input) {
+  return input.replace(/<[^>]*>/g, '')
+}
+
+const posts = (await getCollection('rutinat'))
+posts.sort((a, b) => b.data.published_at - a.data.published_at) // newest first
+const latestPost = posts[0]
+
 ---
 
-<DefaultLayout title="Home">
+<DefaultLayout title="Pääsivu">
   <section class="my-12">
     <div class="container">
       <div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
-        <Feature icon="mdi:book-open-page-variant" title="Blogi">
-          TODO: viimeisin blogipostaus
+        <Feature icon="mdi:book-open-page-variant" title={"Blogi: "+latestPost.data.title}>
+          <em style="color: var(--font-color-muted)">{latestPost.data.published_at.toLocaleString('fi', {month:'numeric',day:'numeric',year:'numeric'})}</em>&nbsp;
+          {removeHTML(latestPost.body).slice(0,100)}&hellip; <a href={postUrl(latestPost)}>Lue koko rutina</a>
         </Feature>
-        <Feature icon="mdi:cloud" title="Työ">
-          Nordcloud work life
+        <Feature icon="mdi:cloud" title="Nordcloud">
+          Teen päivätyöni <a href="https://nordcloud.com/">Nordcloudilla</a> ratkaisuarkkitehtina.
         </Feature>
         <Feature icon="mdi:linkedin" title="LinkedIn">
-          Ammatillinen CV
+          Ammatillinen ansioluetteloni löytyy <a href="https://www.linkedin.com/in/terotilus/">LinkedIn-profiilista</a>.
         </Feature>
       </div>
     </div>
