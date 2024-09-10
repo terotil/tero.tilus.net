@@ -53,6 +53,7 @@ const {
         // light theme
         --font-color: var(--neutral-900);
         --action-color: var(--primary-300);
+        --font-color-muted: color-mix(in hsl, var(--font-color) 50%, var(--background) 50%);
         --action-color-state: var(--primary-500);
         --background: var(--neutral-100);
         --primary-background: var(--primary-100);
@@ -61,7 +62,7 @@ const {
 
       // dark color scheme overrides
       .darkmode {
-        --font-color: var(--neutral-100);
+        --font-color: var(--neutral-300);
         --action-color: var(--secondary-100);
         --action-color-state: var(--secondary-500);
         --background: var(--dark-100);

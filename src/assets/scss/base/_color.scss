@@ -2,20 +2,22 @@
 // | Color
 // | -------------------------------------------------------------
 
+$primary-hue: 335;//276;
+$secondary-hue: 109;//173;
 $colors: (
   primary: (
-    100: hsl(276, 100%, 79%),
-    200: hsl(276, 79%, 69%),
-    300: hsl(276, 53%, 49%),
-    400: hsl(276, 64%, 48%),
-    500: hsl(276, 96%, 20%),
+    100: hsl($primary-hue, 100%, 80%),
+    200: hsl($primary-hue, 79%, 70%),
+    300: hsl($primary-hue, 53%, 55%),
+    400: hsl($primary-hue, 64%, 40%),
+    500: hsl($primary-hue, 96%, 25%),
   ),
   secondary: (
-    100: hsl(173, 81%, 68%),
-    200: hsl(173, 80%, 63%),
-    300: hsl(173, 72%, 57%),
-    400: hsl(173, 75%, 47%),
-    500: hsl(173, 90%, 30%),
+    100: hsl($secondary-hue, 51%, 78%),
+    200: hsl($secondary-hue, 50%, 73%),
+    300: hsl($secondary-hue, 42%, 67%),
+    400: hsl($secondary-hue, 45%, 57%),
+    500: hsl($secondary-hue, 60%, 40%),
   ),
   neutral: (
     100: hsl(0 0% 100%),
