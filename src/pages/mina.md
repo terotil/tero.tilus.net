@@ -1,13 +1,12 @@
 ---
 layout: ../layouts/MarkdownLayout.astro
 title: Minä
+description: Ansioluettelo enimmäkseen päivätyön ulkopuolisista asioista
 ---
 
 # Minä
 
-Isä, nörtti, hakkeri-imitaattori, mukamatemaatikko, haaveilija, hiukan ehkä idealisti ja jonkin sortin aktivisti.
-
-Syntynyt 1977 [Oulussa](http://www.oulu.ouka.fi/), asustanut [Pulkkilassa](http://www.pulkkila.fi/), [Haapavedellä](http://www.haapavesi.fi/) ja vuodesta 1997 [Jyväskylässä](http://www.jkl.fi/).
+Isä, nörtti, hakkeri-imitaattori, mukamatemaatikko, haaveilija, ajoittainen idealisti ja jonkin sortin aktivisti.
 
 ## Yhteystiedot
 
@@ -15,9 +14,9 @@ Syntynyt 1977 [Oulussa](http://www.oulu.ouka.fi/), asustanut [Pulkkilassa](http:
  * Puhelut, SMS, Signal, Telegram, WhatsApp: (kysy puhelinnumeroa muita kanavia käyttäen)
  * [LinkedIn](http://www.linkedin.com/in/terotilus)
  * [Facebook](https://www.facebook.com/tero.tilus)
- * [Skype](http://www.skype.com/): tero.tilus
+ * [Skype](http://www.skype.com/): tero.tilus (ei käytössä)
  * [Matrix](https://matrix.org/): @ttilus:hacklab.fi</dd>
- * [IRC](http://fi.wikipedia.org/wiki/IRC): TTilus (@ IRCNet & freenode.net)
+ * [IRC](http://fi.wikipedia.org/wiki/IRC): TTilus (@ IRCNet & freenode.net, vain satunnaisessa käytössä)
 
 ## Koulutus ja työhistoria
 
