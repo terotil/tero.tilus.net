@@ -9,20 +9,17 @@ published_at: 2008-10-27T01:41:15.000Z
 tags: ["vaalit","politiikka","numeroiden pyörittelyä"]
 comments:
 ---
-<p>Pöly on laskeutunut ja saalis on 44 ääntä.  Tulos on kasvu-uralla, sain nimittäin 2004 kunnallisvaaleissa 43 ääntä. <tt>;)</tt> Tosin kuntaliitosten myötä kasvaneeseen jyväskyläläisten äänioikeutettujen määrään suhteuttaen, ei kasvua ole.  Pikemminkin päin vastoin.  Onneksi kokonaisuus on kuitenkin aurinkoisempi.  Vihreät on vaalivoittaja sekä <a href="http://www.yle.fi/vaalit2008/tulospalvelu/kunnat/puolueiden_kannatus_kno179.html">Jyväskylässä</a> että <a href="http://www.yle.fi/vaalit2008/tulospalvelu/index.html">valtakunnallisesti</a>.</p> 
+<p>Pöly on laskeutunut ja saalis on 44 ääntä.  Tulos on kasvu-uralla, sain nimittäin 2004 kunnallisvaaleissa 43 ääntä. <tt>;)</tt> Tosin kuntaliitosten myötä kasvaneeseen jyväskyläläisten äänioikeutettujen määrään suhteuttaen, ei kasvua ole.  Pikemminkin päin vastoin.  Onneksi kokonaisuus on kuitenkin aurinkoisempi.  Vihreät on vaalivoittaja sekä <a href="http://www.yle.fi/vaalit2008/tulospalvelu/kunnat/puolueiden_kannatus_kno179.html">Jyväskylässä</a> että <a href="http://www.yle.fi/vaalit2008/tulospalvelu/index.html">valtakunnallisesti</a>.</p>
 
 <p>Leikkimielinen tavoitteni näihin vaaleihin oli saada painettua "äänen hinta" alle euron.  Ei paljoa jäänyt vajaaksi.</p>
 
 <p>Alla vielä <a href="http://www.yle.fi/vaalit2008/tulospalvelu/ehdokkaat/ehdokas_kno179_ehdno467.html">saamieni äänten jakautuminen vaalialueittain YLE:n tulospalvelun mukaan</a>.</p>
 
 <style type="text/css">
-#tulos { border-collapse: collapse; margin: 1em auto; }
-#tulos td { padding: 0 0.5em; }
 .alignright { text-align: right; }
-.odd { background-color: #C8D4D8; }
 </style>
 
-<table id="tulos">
+<table class="numeroita">
 
 <thead>
 <tr>

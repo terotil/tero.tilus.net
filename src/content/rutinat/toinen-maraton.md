@@ -9,15 +9,19 @@ published_at: 2010-09-14T00:06:11.000Z
 tags: ["numeroiden pyörittelyä","liikunta","saavutukset"]
 comments:
 ---
+<style>
+  .scroll { overflow: auto; }
+</style>
 <p>Juoksin viime lauantaina elämäni toisen maratonin.  Sää suosi ja järjestelyt pelasivat taas loistavasti.  Lähdin hakemaan vähän liian kovaa aikaa ja viimeinen kymppi meni selviytymistaisteluksi.  <a href="http://racetimer.se/sv/runner/show/1108978?layout=racetimer&amp;race_id=434">Loppuaikani oli 4:57:49</a>.  Parannusta <a href="/rutinat/2009/09/12/takana-42-km-195-m/">viimevuotiseen</a> tuli siis reilu 38 minuuttia.</p>
 <p>Pysyin 4:30-vauhdissa 26 km.  Sen jälkeen tuli noutaja.  Viimeisellä kympillä jalat olivat niin loppu, ettei sykekään enää noussut 160 tasolle.  Ei edes viimeisen parin kilometrin aikana vaikka pistelin niin lujaa kuin jaloista lähti sen viiden tunnin alituksen perässä.  Väliajat ja niistä lasketut keskinopeudet näyttävät tippumisen selvästi.  Toisaalta pystyin kuitenkin koko matkan ajan ylittämään viimevuotisen nopeuden selvästi.</p>
 <div class="scroll">
-table(numeroita).
-|_=. Väliaika|_=. Matka&nbsp;(km)|_=. &Delta;km|_. Kokonaisaika|_. Nettoaika|_. &Delta;kok|_. &Delta;net|_. &Delta;net&nbsp;(h)|_. &Delta;net&nbsp;(min)|_. km/h|_. min/km|
-|Väliaika&nbsp;1|5,8|5,8|00:37:57|00:37:13|00:37:57|00:37:13|0,62|37,22|9,35|6,42|
-|Väliaika&nbsp;2|21,1|15,3|02:15:35|02:14:52|01:37:38|01:37:39|1,63|97,65|9,4|6,38|
-|Väliaika&nbsp;3|33,7|12,6|03:49:15|03:48:31|01:33:40|01:33:39|1,56|93,65|8,07|7,43|
-|Maali|42,2|8,5|04:58:33|04:57:49|01:09:18|01:09:18|1,16|69,30|7,35|8,16|
+<table class="numeroita">
+<tr><th>Väliaika</th><th>Matka&nbsp;(km)</th><th>&Delta;km</th><th>Kokonaisaika</th><th>Nettoaika</th><th>&Delta;kok</th><th>&Delta;net</th><th>&Delta;net&nbsp;(h)</th><th>&Delta;net&nbsp;(min)</th><th>km/h</th><th>min/km</th></tr>
+<tr><td>Väliaika&nbsp;1</td><td>5,8</td><td>5,8</td><td>00:37:57</td><td>00:37:13</td><td>00:37:57</td><td>00:37:13</td><td>0,62</td><td>37,22</td><td>9,35</td><td>6,42</td></tr>
+<tr><td>Väliaika&nbsp;2</td><td>21,1</td><td>15,3</td><td>02:15:35</td><td>02:14:52</td><td>01:37:38</td><td>01:37:39</td><td>1,63</td><td>97,65</td><td>9,4</td><td>6,38</td></tr>
+<tr><td>Väliaika&nbsp;3</td><td>33,7</td><td>12,6</td><td>03:49:15</td><td>03:48:31</td><td>01:33:40</td><td>01:33:39</td><td>1,56</td><td>93,65</td><td>8,07</td><td>7,43</td></tr>
+<tr><td>Maali</td><td>42,2</td><td>8,5</td><td>04:58:33</td><td>04:57:49</td><td>01:09:18</td><td>01:09:18</td><td>1,16</td><td>69,30</td><td>7,35</td><td>8,16</td></tr>
+</table>
 </div>
 <ul>
 	<li>Matkat ja ajat lähdöstä, &Delta;-matkat ja ajat edelliseltä väliaikapisteeltä</li>

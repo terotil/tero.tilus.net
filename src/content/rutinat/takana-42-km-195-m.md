@@ -21,14 +21,18 @@ comments:
   content_html: "<p>Kiitokset onnitteluista.</p>\n<p>ps. Omakätisesti särjetty <span class=\"caps\">CSS</span> korjattu. Nyt on isompi loota kommenteille. :)</p>"
   created_at: 2009-09-13T16:34:29.000Z
 ---
+<style>
+  .scroll { overflow: auto; }
+</style>
 <p>Elämäni ensimmäinen maraton on nyt takana.  Väsyttää ja lihaksiin sattuu, mutta olen tänä kesänä ollut lenkin jälkeen huonommassakin kunnossa.  Voittajan fiilis, vaikka <a href="http://www.racetimer.eu/welkom/es_result.php?v=%252Fes%252Frace%252Fresultlist%252F265%253Frc_id%253D1770%2526amp%253Blayout%253Dracetimer_eu%2526amp%253Bsub_class%253DM">jäinkin viimeiseksi</a>. :D  Vauhti pysyi tasaisena, tankkaus sujui hyvin, eikä mennyt mikään paikka reissussa rikki.  <a href="http://www.racetimer.eu/welkom/es_result.php?v=%252Fes%252Frace%252Fshow%252F265%253Flayout%253Dracetimer_eu">Loppuaikani oli 5:36:06.</a></p>
 <p>Vauhdinjaon onnistumisen näkee hyvin väliajoista.  Tosin näyttää siltä, että sain vain kaksi väliaikaa, kolmas (33,7 km) on jäänyt jostain syystä kirjautumatta kokonaan.</p>
 <div class="scroll">
-table(numeroita).
-|_=. Väliaika|_=. Matka&nbsp;(km)|_=. &Delta;km|_. Kokonaisaika|_. Nettoaika|_. &Delta;kok|_. &Delta;net|_. &Delta;net&nbsp;(h)|_. &Delta;net&nbsp;(min)|_. km/h|_. min/km|
-|Väliaika&nbsp;1|5,8|5,8|00:44:20|00:42:56|00:44:20|00:42:56|0,72|42,93|8,11|7,40|
-|Väliaika&nbsp;2|21,1|15,3|02:38:56|02:37:32|01:54:36|01:54:36|1,91|114,60|8,01|7,49|
-|Maali|42,2|21,1|05:36:06|05:34:42|02:57:10|02:57:10|2,95|177,17|7,14|8,40|
+<table class="numeroita">
+<tr><th>Väliaika</th><th>Matka&nbsp;(km)</th><th>&Delta;km</th><th>Kokonaisaika</th><th>Nettoaika</th><th>&Delta;kok</th><th>&Delta;net</th><th>&Delta;net&nbsp;(h)</th><th>&Delta;net&nbsp;(min)</th><th>km/h</th><th>min/km</th></tr>
+<tr><td>Väliaika&nbsp;1</td><td>5,8</td><td>5,8</td><td>00:44:20</td><td>00:42:56</td><td>00:44:20</td><td>00:42:56</td><td>0,72</td><td>42,93</td><td>8,11</td><td>7,40</td></tr>
+<tr><td>Väliaika&nbsp;2</td><td>21,1</td><td>15,3</td><td>02:38:56</td><td>02:37:32</td><td>01:54:36</td><td>01:54:36</td><td>1,91</td><td>114,60</td><td>8,01</td><td>7,49</td></tr>
+<tr><td>Maali</td><td>42,2</td><td>21,1</td><td>05:36:06</td><td>05:34:42</td><td>02:57:10</td><td>02:57:10</td><td>2,95</td><td>177,17</td><td>7,14</td><td>8,40</td></tr>
+</table>
 </div>
 <ul>
 	<li>Matkat ja ajat lähdöstä, &Delta;-matkat ja ajat edelliseltä väliaikapisteeltä</li>

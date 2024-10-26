@@ -106,8 +106,7 @@ comments:
 </table>
 <p>Jyväskylä oli 11,7 % kannatuslukemilla sijalla 18.</p>
 <p>Samoista huvituksista kiinnostuneille käyttämäni (rumat, mutta toimivat) loitsut alla.</p>
-<pre><code>
-# Haetaan YLEn tulospalvelusta puolueiden kannatukset kunnittain
+<pre><code># Haetaan YLEn tulospalvelusta puolueiden kannatukset kunnittain
 $ for ((i=1; i&lt;1000; i++)); do \
     wget "http://www.yle.fi/vaalit2008/tulospalvelu/kunnat/puolueiden_kannatus_kno$i.html"; \
     done

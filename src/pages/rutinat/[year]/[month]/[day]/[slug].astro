@@ -25,13 +25,52 @@ const { Content } = await post.render()
 const title = "Rutinat – " + post.data.title
 
 ---
+<style lang="scss" is:global>
+    .rutinat {
+        pre {
+            padding: 1rem;
+            border-radius: 0.35rem;
+            border: 2px solid var(--neutral-background);
+        }
+
+        table.numeroita {
+            --border: 1px solid var(--font-color-muted);
+            border-collapse: collapse;
+            margin: 1.5rem auto 0;
+            min-width: 33%;
+        }
+        .numeroita th { background-color: var(--neutral-background); }
+        .numeroita td, .numeroita th { padding: 1px 3px; }
+
+        blockquote {
+            margin-inline-start: 1.5em;
+            margin-inline-end: 1em;
+            color: var(--font-color-muted);
+        }
+        blockquote:before {
+            content: "”";
+            font-size: 2em;
+            color: var(--font-color-muted);
+            position: relative;
+            display: block;
+            margin-inline-start: -0.75em;
+            height: 0;
+        }
+
+        .published-at {
+            color: var(--font-color-muted);
+            text-align: right;
+        }
+    }
+</style>
 
 <DefaultLayout title={title}>
     <div class="container">
         <div class="space-content my-12">
             <h1>{post.data.title}</h1>
-            <p>{post.data.published_at}</p>
+            <p class="published-at">Julkaistu <time date={post.data.published_at.toISOString()}>{post.data.published_at.toLocaleString('fi', {month:'numeric',day:'numeric',year:'numeric'})}</time></p>
             <Content />
         </div>
     </div>
 </DefaultLayout>
+
