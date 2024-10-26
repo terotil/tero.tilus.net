@@ -3,9 +3,13 @@ import DefaultLayout from '../layouts/DefaultLayout.astro'
 import Feature from '../components/Feature.astro'
 import { getCollection } from 'astro:content'
 import postUrl from '../lib/postUrl'
+import MarkdownIt from 'markdown-it'
 
-function removeHTML(input) {
-  return input.replace(/<[^>]*>/g, '')
+const md = new MarkdownIt()
+
+function getExcerpt(post) {
+  const postHtml = md.render(post.body)
+  return postHtml.replace(/<[^>]*>/g, '').slice(0,100)
 }
 
 const posts = (await getCollection('rutinat'))
@@ -20,7 +24,7 @@ const latestPost = posts[0]
       <div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
         <Feature icon="mdi:book-open-page-variant" title={"Blogi: "+latestPost.data.title}>
           <em style="color: var(--font-color-muted)">{latestPost.data.published_at.toLocaleString('fi', {month:'numeric',day:'numeric',year:'numeric'})}</em>&nbsp;
-          {removeHTML(latestPost.body).slice(0,100)}&hellip; <a href={postUrl(latestPost)}>Lue koko rutina</a>
+          {getExcerpt(latestPost)}&hellip; <a href={postUrl(latestPost)}>Lue lisää</a>
         </Feature>
         <Feature icon="mdi:cloud" title="Nordcloud">
           Teen päivätyöni <a href="https://nordcloud.com/">Nordcloudilla</a> ratkaisuarkkitehtina.
