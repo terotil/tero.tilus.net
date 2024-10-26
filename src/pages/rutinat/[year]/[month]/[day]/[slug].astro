@@ -64,8 +64,8 @@ const title = "Rutinat – " + post.data.title
     }
 </style>
 
-<DefaultLayout title={title}>
-    <div class="container">
+<DefaultLayout title={title} description={title}>
+    <div class="container rutinat">
         <div class="space-content my-12">
             <h1>{post.data.title}</h1>
             <p class="published-at">Julkaistu <time date={post.data.published_at.toISOString()}>{post.data.published_at.toLocaleString('fi', {month:'numeric',day:'numeric',year:'numeric'})}</time></p>

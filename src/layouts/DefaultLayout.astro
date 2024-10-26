@@ -8,11 +8,11 @@ import logo from '../assets/img/Pi-symbol.svg'
 
 
 const {
-  title = 'Astro',
-  description = 'A starter project with accessibility features using Astro static site builder. Contains accessible landmarks, skip links, a dark mode color scheme, better focus outline and keyboard menu navigation.',
+  title = 'Tero Tilus – Kotisivut',
+  description = 'Tero Tiluksen kotisivut',
   url,
-  image = '/social-preview-image.png',
-  author = 'Mark Teekman',
+  image = '/default-social-preview-image.jpg',
+  author = 'Tero Tilus',
 } = Astro.props
 ---
 
@@ -28,9 +28,6 @@ const {
     <SiteMeta
       title={title}
       description={description.substring(0, 100)}
-      url={Astro.site
-        ? `${Astro.site}/${title.toLowerCase().replaceAll(' ', '-')}`
-        : `https://accessible-astro.dev/${title.toLowerCase().replaceAll(' ', '-')}`}
       image={image}
       author={author}
     />

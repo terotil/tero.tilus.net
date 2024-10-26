@@ -32,7 +32,7 @@ function toPostsByKey(posts:any[], toKeys: Function[]) {
     return postsByKey
 }
 
-let title = "Rutinat"
+let title = "Rutinat – Teron blogi"
 const { year, month, tag } = Astro.props
 if (tag) { title = title + ": " + tag}
 
@@ -50,7 +50,7 @@ const postsByYear = toPostsByKey(posts, [
 
 ---
 
-<DefaultLayout title={title}>
+<DefaultLayout title={title} description={title}>
     <div class="container">
         <div class="space-content my-12">
             <h1>{title}</h1>
