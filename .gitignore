@@ -18,7 +18,8 @@ yarn-error.log*
 .DS_Store
 
 # vscode settings and dictionaries
-.vscode
+.vscode/*
+!.vscode/launch.json
 
 # webstorm settings and dictionaries
 .idea
