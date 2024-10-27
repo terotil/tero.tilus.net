@@ -1,10 +1,10 @@
 ---
 layout: ../layouts/MarkdownLayout.astro
-title: Minä
+title: Tero Tilus – epäammatillinen CV
 description: Ansioluettelo enimmäkseen päivätyön ulkopuolisista asioista
 ---
 
-# Minä
+# Tero Tilus
 
 Isä, nörtti, hakkeri-imitaattori, mukamatemaatikko, haaveilija, ajoittainen idealisti ja jonkin sortin aktivisti.
 
