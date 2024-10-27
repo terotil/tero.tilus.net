@@ -7,9 +7,19 @@ const currentYear = new Date().getFullYear()
 <footer>
   <section class="py-8">
     <div class="container">
-      <p>
-        &#127279; {currentYear} - Tero Tilus
+      <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
+        <a property="dct:title" rel="cc:attributionURL" href="https://tero.tilus.net/">tero.tilus.net</a> &#127279; 2001-{currentYear} by
+        <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="http://tero.tilus.net/mina/">Tero Tilus</a>
+        is licensed under
+        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">
+          CC BY-NC-SA 4.0
+        </a>
+        <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="Creative Commons icon">
+        <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="Creative Commons Attribution icon">
+        <img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt="Creative Commons NonCommercial icon">
+        <img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt="Creative Commons ShareAlike icon">
       </p>
+
     </div>
   </section>
 </footer>
@@ -17,5 +27,14 @@ const currentYear = new Date().getFullYear()
 <style lang="scss" is:global>
   footer {
     color: var(--font-color-muted);
+    font-size: 90%;
+    opacity: 50%;
+
+    img {
+      display: inline-block;
+      height: 1rem;
+      margin-left: 3px;
+      vertical-align: text-bottom;
+    }
   }
 </style>
