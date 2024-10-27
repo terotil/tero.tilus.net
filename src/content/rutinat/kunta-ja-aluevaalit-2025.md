@@ -8,7 +8,7 @@ comments:
 ---
 Olen tulevissa 2025 kuntavaaleissa [Jyväskylän Vihreiden ehdokkaana](https://jyvaskylanvihreat.fi/ehdokkaaksi-kuntavaaleihin-2025/) ehdokkaana [Jyväskylän kaupunginvaltuustoon](https://www.jyvaskyla.fi/paatoksenteko/kaupunginvaltuusto) ja aluevaaleissa [Keski-Suomen Vihreiden ehdokkaana](https://keskisuomenvihreat.fi/2024/09/26/keski-suomen-vihreat-nimesi-uusia-aluevaaliehdokkaita-2/) [Keski-Suomen hyvinvointialueen aluevatuustoon](https://www.hyvaks.fi/hyvinvointialue/paatoksenteko/aluevaltuusto).
 
-Omia kiinnostuksen kohteitani ovat kestävä kaupunkisuunnittelu, pyöräilyolosuhteiden parantaminen ja .
+Omia kiinnostuksen kohteitani ovat kestävä kaupunkisuunnittelu, pyöräilyolosuhteiden parantaminen ja resurssiviisaus.  Tehdään vähemmällä enemmän.
 
 <!--
 <p>Alla tiivistetysti vaalirahoituksesta antamani <a href="https://www.puoluerahoitus.fi/extranet/fi/vaalit/KV2017/179/8087831c4d5fd8955ed40eee8c51b49a5f0f594d/E_EI_KV2017.html.stx?section=View">ennakkoilmoitus</a>.  Jyväskylässä ehdolla olevien ilmoitusten kertymistä voi seurata <a href="https://www.puoluerahoitus.fi/fi/index/vaalirahailmoituksia/ilmoituslistaus/KV2017/179.html">Puolue- ja vaalirahoitusvalvonnan sivuilla</a>.</p>
