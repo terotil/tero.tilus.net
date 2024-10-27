@@ -3,14 +3,7 @@ import DefaultLayout from '../layouts/DefaultLayout.astro'
 import Feature from '../components/Feature.astro'
 import { getCollection } from 'astro:content'
 import postUrl from '../lib/postUrl'
-import MarkdownIt from 'markdown-it'
-
-const md = new MarkdownIt()
-
-function getExcerpt(post) {
-  const postHtml = md.render(post.body)
-  return postHtml.replace(/<[^>]*>/g, '').slice(0,100)
-}
+import getExcerpt from '../lib/getExcerpt'
 
 const posts = (await getCollection('rutinat'))
 posts.sort((a, b) => b.data.published_at - a.data.published_at) // newest first

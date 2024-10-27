@@ -21,9 +21,6 @@ comments:
   content_html: "<p>Kiitokset onnitteluista.</p>\n<p>ps. Omakätisesti särjetty <span class=\"caps\">CSS</span> korjattu. Nyt on isompi loota kommenteille. :)</p>"
   created_at: 2009-09-13T16:34:29.000Z
 ---
-<style>
-  .scroll { overflow: auto; }
-</style>
 <p>Elämäni ensimmäinen maraton on nyt takana.  Väsyttää ja lihaksiin sattuu, mutta olen tänä kesänä ollut lenkin jälkeen huonommassakin kunnossa.  Voittajan fiilis, vaikka <a href="http://www.racetimer.eu/welkom/es_result.php?v=%252Fes%252Frace%252Fresultlist%252F265%253Frc_id%253D1770%2526amp%253Blayout%253Dracetimer_eu%2526amp%253Bsub_class%253DM">jäinkin viimeiseksi</a>. :D  Vauhti pysyi tasaisena, tankkaus sujui hyvin, eikä mennyt mikään paikka reissussa rikki.  <a href="http://www.racetimer.eu/welkom/es_result.php?v=%252Fes%252Frace%252Fshow%252F265%253Flayout%253Dracetimer_eu">Loppuaikani oli 5:36:06.</a></p>
 <p>Vauhdinjaon onnistumisen näkee hyvin väliajoista.  Tosin näyttää siltä, että sain vain kaksi väliaikaa, kolmas (33,7 km) on jäänyt jostain syystä kirjautumatta kokonaan.</p>
 <div class="scroll">
@@ -42,3 +39,7 @@ comments:
 </ul>
 <p>Keskinopeus ei paljoa hyytynyt ja alun osasin ottaa riittävän lunkisti kun 5,8 &#8211; 21,1 km meni olennaisesti samaa vauhtia kuin ensimmäinen 5,8 km.</p>
 <p>Teippaukset hoitivat hommansa, eikä hiertymiä tullut.  Muutamaan otteeseen tahtoivat sormet jäähtyä.  Ehkä kyse oli niskan jumimisesta tai sitten huollossa nautitun evään aiheuttamasta &#8220;veri menee mahaan&#8221; -efektistä.  Pahin energiavaje oli yllättäen jo ensimmäisen kierroksen loppupuolella Äijälänsalmen sillan kohdalla.  Kolmannen kierroksen alkupuolella meinasivat pohkeet jumiutua.  Se todennäköisesti johtui siitä, etten saanut tarpeeksi nestettä imeytymään siinä vaiheessa.  Rupesin juomaan huolloissa enemmän ja jumi helpotti.  Lisäjuominen tosin aiheutti sen, että huoltojen jälkeen oli pakko kävellä aika pitkä pätkä ennen kuin nestettä oli häipynyt mahasta sen verran, että pystyi taas juoksemaan.</p>
+
+<style>
+  .scroll { overflow: auto; }
+</style>

@@ -9,9 +9,6 @@ published_at: 2010-09-14T00:06:11.000Z
 tags: ["numeroiden pyörittelyä","liikunta","saavutukset"]
 comments:
 ---
-<style>
-  .scroll { overflow: auto; }
-</style>
 <p>Juoksin viime lauantaina elämäni toisen maratonin.  Sää suosi ja järjestelyt pelasivat taas loistavasti.  Lähdin hakemaan vähän liian kovaa aikaa ja viimeinen kymppi meni selviytymistaisteluksi.  <a href="http://racetimer.se/sv/runner/show/1108978?layout=racetimer&amp;race_id=434">Loppuaikani oli 4:57:49</a>.  Parannusta <a href="/rutinat/2009/09/12/takana-42-km-195-m/">viimevuotiseen</a> tuli siis reilu 38 minuuttia.</p>
 <p>Pysyin 4:30-vauhdissa 26 km.  Sen jälkeen tuli noutaja.  Viimeisellä kympillä jalat olivat niin loppu, ettei sykekään enää noussut 160 tasolle.  Ei edes viimeisen parin kilometrin aikana vaikka pistelin niin lujaa kuin jaloista lähti sen viiden tunnin alituksen perässä.  Väliajat ja niistä lasketut keskinopeudet näyttävät tippumisen selvästi.  Toisaalta pystyin kuitenkin koko matkan ajan ylittämään viimevuotisen nopeuden selvästi.</p>
 <div class="scroll">
@@ -30,3 +27,7 @@ comments:
 	<li>Nettoaika on aika lähtöviivan ylityksestä</li>
 </ul>
 <p>Sykemittari kertoi matkan keskisykkeeksi 156, maksimisykkeeksi 172 ja arvioiduksi energiankulutukseksi 3524 kcal.</p>
+
+<style>
+  .scroll { overflow: auto; }
+</style>

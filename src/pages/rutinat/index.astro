@@ -3,10 +3,7 @@ import DefaultLayout from '../../layouts/DefaultLayout.astro'
 import { getCollection } from 'astro:content'
 import monthUrl from '../../lib/monthUrl'
 import postUrl from '../../lib/postUrl'
-
-function removeHTML(input) {
-  return input.replace(/<[^>]*>/g, '')
-}
+import getExcerpt from '../../lib/getExcerpt'
 
 function toPostsByKey(posts:any[], toKeys: Function[]) {
     toKeys = [...toKeys]
@@ -50,25 +47,49 @@ const postsByYear = toPostsByKey(posts, [
 
 ---
 
+<style>
+    ul, ul ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    ul.posts, ul ul.posts {
+        padding-inline-start: 1em;
+    }
+    li {
+        margin-bottom: 1em;
+    }
+    h2 > a {
+        color: var(--font-color);
+        text-decoration: none;
+    }
+    h2 > a:hover, h2 > a:focus-visible {
+        color: var(--action-color-state);
+    }
+    h3 {
+        display: none;
+    }
+</style>
+
 <DefaultLayout title={title} description={title}>
     <div class="container">
         <div class="space-content my-12">
             <h1>{title}</h1>
             <ul>
                 {postsByYear.keys.map((year) => (
-                    <li>
+                    <li class="year">
                         <h2><a href={`/rutinat/${year}`}>{year}</a></h2>
-                        <ul>
+                        <ul class="months">
                             {postsByYear.posts[year].keys.map((month) => (
-                                <li>
+                                <li class="month">
                                     <h3><a href={monthUrl(postsByYear.posts[year].posts[month][0])}>{month}</a></h3>
-                                    <ul>
+                                    <ul class="posts">
                                         {postsByYear.posts[year].posts[month].map((post) => (
-                                            <li>
+                                            <li class="post">
                                                 <h4><a href={postUrl(post)}>{post.data.title}</a></h4>
                                                 <p>
                                                     <em>{post.data.published_at.toLocaleString('fi', {month:'numeric',day:'numeric',year:'numeric'})}</em>&nbsp;
-                                                    {removeHTML(post.body).slice(0,100)}&hellip;
+                                                    {getExcerpt(post, 200)}&hellip;
                                                 </p>
                                             </li>
                                             ))
