@@ -5,6 +5,7 @@ import compress from 'astro-compress'
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://tero.tilus.net',
   compressHTML: true,
   integrations: [mdx(), tailwind({
     applyBaseStyles: false,
