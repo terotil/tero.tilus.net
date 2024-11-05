@@ -21,6 +21,7 @@ Isä, nörtti, hakkeri-imitaattori, mukamatemaatikko, haaveilija, ajoittainen id
 ## Koulutus ja työhistoria
 
  * Katso ammatillinen CV [LinkedIn-profiilistani](http://www.linkedin.com/in/terotilus)
+ * Sertifioinnit löytyvät [Credly-profiilistani](https://www.credly.com/users/tero-tilus)
 
 ## Jäsenyyksiä
 
